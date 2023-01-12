@@ -1,0 +1,14 @@
+.table-transactions-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+}
+
+.table-transactions-container label input {
+  margin: 20px;
+  margin-right: 2px;
+  padding: 2px;
+}
