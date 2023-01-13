@@ -75,6 +75,13 @@ const Register = () => {
               placeholder='Senha'
             />
           </label>
+          <p>
+            A senha deve conter :<br />
+            ao menos um dígito <br />
+            ao menos uma letra minúscula<br />
+            ao menos uma letra maiúscula<br />
+            ao menos 8 dos caracteres mencionados
+          </p>
           {failedTryRegistred ? (
             <p data-testid='register_alert'>
               {`O nome de usuário deve conter no mínimo 3 caracteres;
